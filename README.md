@@ -46,7 +46,7 @@ The user can re-populate the webpage with all of the data by clicking on "UFO si
 
 ### Drawback
 - One drawback of this present design is that the criteria for filtering the data requires the user to povide an exact match to the data present.\
-For example, filtering on a state requires the postal code to be entered in lowercase letters. This is not intuitive because postal codes are typically represented by upper case letters. Similarly names of places also start with an uppercase letter.\
+For example, filtering on a state requires the USPS state code to be entered in lowercase letters. This is not intuitive because state codes are typically represented by upper case letters. Similarly names of places also start with an uppercase letter.\
 However, in its present form, if an exact match is not given while entering the names of places, then the webpage will return an empty table even if data exists for the filters added. This is inaccurate.\
 The webpage will benefit by allowing for a search that is flexible enough to provide relevant results even if there is no exact match in the search criteria.
 
